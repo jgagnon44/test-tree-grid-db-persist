@@ -1,13 +1,10 @@
-package com.vaadin.flow.component.treegrid.persist.service;
+package com.vaadin.flow.component.treegrid.persist;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.vaadin.flow.component.treegrid.persist.entity.Account;
-import com.vaadin.flow.component.treegrid.persist.repo.AccountRepository;
 
 @Service
 @Transactional

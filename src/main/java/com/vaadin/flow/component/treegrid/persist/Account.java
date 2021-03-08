@@ -1,4 +1,4 @@
-package com.vaadin.flow.component.treegrid.persist.entity;
+package com.vaadin.flow.component.treegrid.persist;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;

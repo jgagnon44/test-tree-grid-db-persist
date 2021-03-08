@@ -1,11 +1,9 @@
-package com.vaadin.flow.component.treegrid.persist.repo;
+package com.vaadin.flow.component.treegrid.persist;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-
-import com.vaadin.flow.component.treegrid.persist.entity.Account;
 
 public class AccountRepositoryCustomImpl implements AccountRepositoryCustom {
 
